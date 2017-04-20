@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8B98EB4578959FF856F5C1F /* libPods-PayTypeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1C78E7261393D981F632EB /* libPods-PayTypeDemo.a */; };
+		F3B780FE1EA889520028F46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B780FD1EA889520028F46A /* main.m */; };
+		F3B781011EA889520028F46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B781001EA889520028F46A /* AppDelegate.m */; };
+		F3B781041EA889520028F46A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B781031EA889520028F46A /* ViewController.m */; };
+		F3B781071EA889520028F46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B781051EA889520028F46A /* Main.storyboard */; };
+		F3B781091EA889520028F46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B781081EA889520028F46A /* Assets.xcassets */; };
+		F3B7810C1EA889520028F46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B7810A1EA889520028F46A /* LaunchScreen.storyboard */; };
+		F3B781251EA88D750028F46A /* AppPay.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B7811F1EA88D750028F46A /* AppPay.m */; };
+		F3B781291EA88D920028F46A /* WXPayCheckModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B781281EA88D920028F46A /* WXPayCheckModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		554E23E34E5DC64C387ECB74 /* Pods-PayTypeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTypeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayTypeDemo/Pods-PayTypeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AB77AB509B94F80131DCD928 /* Pods-PayTypeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTypeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayTypeDemo/Pods-PayTypeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF1C78E7261393D981F632EB /* libPods-PayTypeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayTypeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B780F91EA889520028F46A /* PayTypeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTypeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B780FD1EA889520028F46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B780FF1EA889520028F46A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3B781001EA889520028F46A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3B781021EA889520028F46A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3B781031EA889520028F46A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3B781061EA889520028F46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B781081EA889520028F46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B7810B1EA889520028F46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B7810D1EA889520028F46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B7811E1EA88D750028F46A /* AppPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPay.h; sourceTree = "<group>"; };
+		F3B7811F1EA88D750028F46A /* AppPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPay.m; sourceTree = "<group>"; };
+		F3B781271EA88D920028F46A /* WXPayCheckModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPayCheckModel.h; sourceTree = "<group>"; };
+		F3B781281EA88D920028F46A /* WXPayCheckModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXPayCheckModel.m; sourceTree = "<group>"; };
+		F3B7812B1EA893340028F46A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B780F61EA889520028F46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B98EB4578959FF856F5C1F /* libPods-PayTypeDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAF543DAF711AC7C6576751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C78E7261393D981F632EB /* libPods-PayTypeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAEE8EB079B9C755338E2C02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB77AB509B94F80131DCD928 /* Pods-PayTypeDemo.debug.xcconfig */,
+				554E23E34E5DC64C387ECB74 /* Pods-PayTypeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3B780F01EA889520028F46A = {
+			isa = PBXGroup;
+			children = (
+				F3B780FB1EA889520028F46A /* PayTypeDemo */,
+				F3B780FA1EA889520028F46A /* Products */,
+				BAEE8EB079B9C755338E2C02 /* Pods */,
+				0DAF543DAF711AC7C6576751 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B780FA1EA889520028F46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B780F91EA889520028F46A /* PayTypeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B780FB1EA889520028F46A /* PayTypeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F3B780FF1EA889520028F46A /* AppDelegate.h */,
+				F3B781001EA889520028F46A /* AppDelegate.m */,
+				F3B781021EA889520028F46A /* ViewController.h */,
+				F3B781031EA889520028F46A /* ViewController.m */,
+				F3B7812A1EA88D990028F46A /* Models */,
+				F3B7811D1EA88D750028F46A /* AppPay */,
+				F3B781051EA889520028F46A /* Main.storyboard */,
+				F3B781081EA889520028F46A /* Assets.xcassets */,
+				F3B7810A1EA889520028F46A /* LaunchScreen.storyboard */,
+				F3B7810D1EA889520028F46A /* Info.plist */,
+				F3B780FC1EA889520028F46A /* Supporting Files */,
+				F3B7812B1EA893340028F46A /* PrefixHeader.pch */,
+			);
+			path = PayTypeDemo;
+			sourceTree = "<group>";
+		};
+		F3B780FC1EA889520028F46A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B780FD1EA889520028F46A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B7811D1EA88D750028F46A /* AppPay */ = {
+			isa = PBXGroup;
+			children = (
+				F3B7811E1EA88D750028F46A /* AppPay.h */,
+				F3B7811F1EA88D750028F46A /* AppPay.m */,
+			);
+			path = AppPay;
+			sourceTree = "<group>";
+		};
+		F3B7812A1EA88D990028F46A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3B781271EA88D920028F46A /* WXPayCheckModel.h */,
+				F3B781281EA88D920028F46A /* WXPayCheckModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B780F81EA889520028F46A /* PayTypeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B781101EA889520028F46A /* Build configuration list for PBXNativeTarget "PayTypeDemo" */;
+			buildPhases = (
+				FDB12B4212194D2921312FB5 /* [CP] Check Pods Manifest.lock */,
+				F3B780F51EA889520028F46A /* Sources */,
+				F3B780F61EA889520028F46A /* Frameworks */,
+				F3B780F71EA889520028F46A /* Resources */,
+				F3D7972EA6E1F96CFC5A92B0 /* [CP] Embed Pods Frameworks */,
+				0B6EB0098BAC4E45BA4D47FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayTypeDemo;
+			productName = PayTypeDemo;
+			productReference = F3B780F91EA889520028F46A /* PayTypeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B780F11EA889520028F46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "北京116科技有限公司";
+				TargetAttributes = {
+					F3B780F81EA889520028F46A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = KK59AKUJZC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3B780F41EA889520028F46A /* Build configuration list for PBXProject "PayTypeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B780F01EA889520028F46A;
+			productRefGroup = F3B780FA1EA889520028F46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B780F81EA889520028F46A /* PayTypeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B780F71EA889520028F46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B7810C1EA889520028F46A /* LaunchScreen.storyboard in Resources */,
+				F3B781091EA889520028F46A /* Assets.xcassets in Resources */,
+				F3B781071EA889520028F46A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B6EB0098BAC4E45BA4D47FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayTypeDemo/Pods-PayTypeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D7972EA6E1F96CFC5A92B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayTypeDemo/Pods-PayTypeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB12B4212194D2921312FB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B780F51EA889520028F46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B781041EA889520028F46A /* ViewController.m in Sources */,
+				F3B781011EA889520028F46A /* AppDelegate.m in Sources */,
+				F3B781251EA88D750028F46A /* AppPay.m in Sources */,
+				F3B780FE1EA889520028F46A /* main.m in Sources */,
+				F3B781291EA88D920028F46A /* WXPayCheckModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B781051EA889520028F46A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B781061EA889520028F46A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B7810A1EA889520028F46A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B7810B1EA889520028F46A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B7810E1EA889520028F46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3B7810F1EA889520028F46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B781111EA889520028F46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB77AB509B94F80131DCD928 /* Pods-PayTypeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KK59AKUJZC;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = PayTypeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayTypeDemo/WeChat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianmo.PayTypeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3B781121EA889520028F46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554E23E34E5DC64C387ECB74 /* Pods-PayTypeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KK59AKUJZC;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = PayTypeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayTypeDemo/WeChat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianmo.PayTypeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B780F41EA889520028F46A /* Build configuration list for PBXProject "PayTypeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B7810E1EA889520028F46A /* Debug */,
+				F3B7810F1EA889520028F46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B781101EA889520028F46A /* Build configuration list for PBXNativeTarget "PayTypeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B781111EA889520028F46A /* Debug */,
+				F3B781121EA889520028F46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B780F11EA889520028F46A /* Project object */;
+}
